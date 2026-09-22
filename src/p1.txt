@@ -1,0 +1,4 @@
+68327 347898375840389362
+118293 347898375840389362
+
+Row Major order was faster because the values we iterate over are contiguous in memory, exhibiting spacial locality for the CPU cache to leverage.
